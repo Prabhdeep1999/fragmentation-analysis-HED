@@ -5,7 +5,7 @@ Fragmentation Analysis is a key check used by mining engineers after blasting to
 This is a standard usecase and can be used to find size of unknown objects with clear boundaries in terms of pixels in a stabilised camera with consistent camera position.
 
 Following is a series of snap showing the three phases (Raw | Fragmented Image)
-`<img src="image/README/demo_image.jpg" alt="drawing" width="480" height="270"/><img src="image/README/out.jpg" alt="drawing" width="480" height="270"/>`
+<img src="images/Readme/demo_image.jpg" alt="input_image" width="480" height="270"/><img src="images/Readme/out.jpg" alt="output_image" width="480" height="270"/>
 
 1. Python3.7
 2. If Docker Approach is selcted:
@@ -43,7 +43,7 @@ The program can run in either of the two following ways:
 | Resources | URL       | Method | Param                          | Status                                                                     | Param Body type |
 | --------- | --------- | ------ | ------------------------------ | -------------------------------------------------------------------------- | --------------- |
 | Register  | /register | post   | uname, pass                    | 200 OK, 301 username already exist                                         | JSON            |
-| Classify  | /fragment | post   | uname, pass, image_file_base64 | 200 OK, 301, 302 Incorrect id or pass, 303 Out of token, 304 Invalid input | Form            |
+| Fragment  | /fragment | post   | uname, pass, image_file_base64 | 200 OK, 301, 302 Incorrect id or pass, 303 Out of token, 304 Invalid input | JSON            |
 
 *Database.ini:*
 
