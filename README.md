@@ -4,7 +4,7 @@ Fragmentation Analysis is a key check used by mining engineers after blasting to
 
 This is a standard usecase and can be used to find size of unknown objects with clear boundaries in terms of pixels in a stabilised camera with consistent camera position.
 
-Following is a series of snap showing the three phases (Raw | Fragmented Image)
+Following is a series of snap showing the two phases (Raw | Fragmented Image)
 <img src="images/Readme/demo_image.jpg" alt="input_image" width="360" height="202"/><img src="images/Readme/out.jpg" alt="output_image" width="360" height="202"/>
 
 1. Python3.7
